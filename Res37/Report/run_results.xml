@@ -1,0 +1,124 @@
+<?xml version="1.0"?>
+<Results version="1.0">
+<ReportNode type="testrun">
+<ReportNode type="Action">
+<ReportNode type="Step">
+<Data>
+    <Name>SystemUtil.Run "C:\Program Files (x86)\OpenText\UFT One\samples\Flights Application\FlightsGUI.exe",1</Name>
+    <StartTime>2024-08-16 21:08:45</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <IconKey>2bf193d884be45be978c2a128d3dd429</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <DeviceInfo />
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Abrir o MyFlights</Name>
+    <Description />
+    <StartTime>2024-08-16 21:08:45</StartTime>
+    <Duration>1</Duration>
+    <Result>Done</Result>
+    <InputParameters>
+      <Parameter name="agentName_text" value="john" type="System.String" />
+      <Parameter name="password_text" value="66b03a2be983e964d091" type="System.String" />
+      <Parameter name="WpfTabStrip_Item" value="SEARCH ORDER" type="System.String" />
+      <Parameter name="byNameWatermark_text" value="001" type="System.String" />
+      <Parameter name="byNameWatermark_text_1" value="0091" type="System.String" />
+      <Parameter name="WpfTabStrip_Item_1" value="BOOK FLIGHT" type="System.String" />
+      <Parameter name="toCity_Item" value="Portland" type="System.String" />
+      <Parameter name="WpfImage_X" value="7" type="System.String" />
+      <Parameter name="WpfImage_Y" value="12" type="System.String" />
+      <Parameter name="Su_Date" value="8-Aug-2024" type="System.String" />
+      <Parameter name="Class_Item" value="Business" type="System.String" />
+      <Parameter name="numOfTickets_Item" value="3" type="System.String" />
+      <Parameter name="passengerName_text" value="Julio" type="System.String" />
+      <Parameter name="WpfImage_X_1" value="8" type="System.String" />
+      <Parameter name="WpfImage_Y_1" value="10" type="System.String" />
+      <Parameter name="Su_Date_1" value="9-Aug-2024" type="System.String" />
+      <Parameter name="WpfImage_X_2" value="10" type="System.String" />
+      <Parameter name="WpfImage_Y_2" value="7" type="System.String" />
+      <Parameter name="Su_Date_2" value="7-Aug-2024" type="System.String" />
+      <Parameter name="datePicker_Date" value="6-Aug-2024" type="System.String" />
+      <Parameter name="Order_135_completed_PropertyName" value="visible" type="System.String" />
+      <Parameter name="Order_135_completed_PropertyValue" value="true" type="System.String" />
+      <Parameter name="Order_135_completed_TimeOut" value="10000" type="System.String" />
+      <Parameter name="fromCity_Item" value="Denver" type="System.String" />
+      <Parameter name="numOfTickets_Item_1" value=".*DataTable(&quot;tickets&quot;" type="System.String" />
+      <Parameter name="passengerName_text_1" value="xxx" type="System.String" />
+      <Parameter name="passengerName_text_2" value="julio" type="System.String" />
+    </InputParameters>
+    <Extension>
+      <IconKey>bbab2960f93046cab4631f958f10aa5e</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Flight test exercicio 1</Name>
+    <ToolName>OpenText UFT One</ToolName>
+    <ToolVersion>24.2</ToolVersion>
+    <ToolVersionStringLiteral>24.2</ToolVersionStringLiteral>
+    <Description />
+    <StartTime>2024-08-16 21:08:42</StartTime>
+    <Duration>4</Duration>
+    <Result>Done</Result>
+    <InputParameters>
+      <Parameter name="agentName_text" value="john" type="System.String" />
+      <Parameter name="password_text" value="66b03a2be983e964d091" type="System.String" />
+      <Parameter name="WpfTabStrip_Item" value="SEARCH ORDER" type="System.String" />
+      <Parameter name="byNameWatermark_text" value="001" type="System.String" />
+      <Parameter name="byNameWatermark_text_1" value="0091" type="System.String" />
+      <Parameter name="WpfTabStrip_Item_1" value="BOOK FLIGHT" type="System.String" />
+      <Parameter name="toCity_Item" value="Portland" type="System.String" />
+      <Parameter name="WpfImage_X" value="7" type="System.String" />
+      <Parameter name="WpfImage_Y" value="12" type="System.String" />
+      <Parameter name="Su_Date" value="8-Aug-2024" type="System.String" />
+      <Parameter name="Class_Item" value="Business" type="System.String" />
+      <Parameter name="numOfTickets_Item" value="3" type="System.String" />
+      <Parameter name="passengerName_text" value="Julio" type="System.String" />
+      <Parameter name="WpfImage_X_1" value="8" type="System.String" />
+      <Parameter name="WpfImage_Y_1" value="10" type="System.String" />
+      <Parameter name="Su_Date_1" value="9-Aug-2024" type="System.String" />
+      <Parameter name="WpfImage_X_2" value="10" type="System.String" />
+      <Parameter name="WpfImage_Y_2" value="7" type="System.String" />
+      <Parameter name="Su_Date_2" value="7-Aug-2024" type="System.String" />
+      <Parameter name="datePicker_Date" value="6-Aug-2024" type="System.String" />
+      <Parameter name="Order_135_completed_PropertyName" value="visible" type="System.String" />
+      <Parameter name="Order_135_completed_PropertyValue" value="true" type="System.String" />
+      <Parameter name="Order_135_completed_TimeOut" value="10000" type="System.String" />
+      <Parameter name="fromCity_Item" value="Denver" type="System.String" />
+      <Parameter name="numOfTickets_Item_1" value=".*DataTable(&quot;tickets&quot;" type="System.String" />
+      <Parameter name="passengerName_text_1" value="xxx" type="System.String" />
+      <Parameter name="passengerName_text_2" value="julio" type="System.String" />
+    </InputParameters>
+    <Extension>
+      <IconKey>cd0e2fc5fa5c4473bf676e9fbce542f7</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <Environment>
+      <Timezone>-03:00:00</Timezone>
+      <Locale>English (United States)</Locale>
+      <User>johnnykamigashima</User>
+      <CpuInfo>Intel(R) Core(TM) i5-4278U CPU @ 2.60GHz</CpuInfo>
+      <NumberOfCores>2</NumberOfCores>
+      <TotalMemory>6125</TotalMemory>
+      <HostName>JOHNNYKAMIG6E9E</HostName>
+      <OSInfo>Windows 11 23H2 (x64)</OSInfo>
+    </Environment>
+    <TestedApplications />
+    <Links>
+      <Link type="DataTable" reference="Default.xlsx" displayname="Default Data Table" />
+    </Links>
+  </Data>
+</ReportNode>
+<GeneralInfo>
+    <ResultName>Res37</ResultName>
+    <RunStartTime>2024-08-16 21:08:42</RunStartTime>
+    <Timezone>-03:00:00</Timezone>
+    <OrchestrationToolName>OpenText UFT One</OrchestrationToolName>
+    <OrchestrationToolVersion>24.2</OrchestrationToolVersion>
+    <OrchestrationToolVersionStringLiteral>24.2</OrchestrationToolVersionStringLiteral>
+  </GeneralInfo>
+</Results>

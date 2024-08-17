@@ -1,0 +1,83 @@
+<?xml version="1.0"?>
+<Results version="1.0">
+<ReportNode type="testrun">
+<ReportNode type="Iteration">
+<ReportNode type="Step">
+<Data>
+    <Name>Parameter password_text not found.</Name>
+    <ErrorText>Parameter password_text not found.</ErrorText>
+    <Description>&lt;BR/&gt;Line (1): &amp;quot;RunAction &amp;quot;Abrir o MyFlights&amp;quot;, allIterations, Parameter(&amp;quot;password_text&amp;quot;), Parameter(&amp;quot;WpfTabStrip_Item&amp;quot;), Parameter(&amp;quot;byNameWatermark_text&amp;quot;), Parameter(&amp;quot;byNameWatermark_text_1&amp;quot;), Parameter(&amp;quot;WpfTabStrip_Item_1&amp;quot;), Parameter(&amp;quot;toCity_Item&amp;quot;), Parameter(&amp;quot;WpfImage_X&amp;quot;), Parameter(&amp;quot;WpfImage_Y&amp;quot;), Parameter(&amp;quot;Su_Date&amp;quot;), Parameter(&amp;quot;Class_Item&amp;quot;), Parameter(&amp;quot;numOfTickets_Item&amp;quot;), Parameter(&amp;quot;passengerName_text&amp;quot;), Parameter(&amp;quot;WpfImage_X_1&amp;quot;), Parameter(&amp;quot;WpfImage_Y_1&amp;quot;), Parameter(&amp;quot;Su_Date_1&amp;quot;), Parameter(&amp;quot;WpfImage_X_2&amp;quot;), Parameter(&amp;quot;WpfImage_Y_2&amp;quot;), Parameter(&amp;quot;Su_Date_2&amp;quot;), Parameter(&amp;quot;datePicker_Date&amp;quot;), Parameter(&amp;quot;Order_135_completed_PropertyName&amp;quot;), Parameter(&amp;quot;Order_135_completed_PropertyValue&amp;quot;), Parameter(&amp;quot;Order_135_completed_TimeOut&amp;quot;), Parameter(&amp;quot;fromCity_Item&amp;quot;), Parameter(&amp;quot;numOfTickets_Item_1&amp;quot;), Parameter(&amp;quot;passengerName_text_1&amp;quot;), Parameter(&amp;quot;passengerName_text_2&amp;quot;)&amp;quot;.</Description>
+    <StartTime>2024-08-16 21:52:44</StartTime>
+    <Result>Failed</Result>
+    <Extension>
+      <StackTrace>
+        <StackFrame>
+          <ModuleName><![CDATA[Action0]]></ModuleName>
+          <FileName><![CDATA[Action0]]></FileName>
+          <Language><![CDATA[VBScript - script block]]></Language>
+          <FunctionName><![CDATA[VBScript global code]]></FunctionName>
+          <Scripts><![CDATA[RunAction "Abrir o MyFlights", allIterations, Parameter("password_text"), Parameter("WpfTabStrip_Item"), Parameter("byNameWatermark_text"), Parameter("byNameWatermark_text_1"), Parameter("WpfTabStrip_Item_1"), Parameter("toCity_Item"), Parameter("WpfImage_X"), Parameter("WpfImage_Y"), Parameter("Su_Date"), Parameter("Class_Item"), Parameter("numOfTickets_Item"), Parameter("passengerName_text"), Parameter("WpfImage_X_1"), Parameter("WpfImage_Y_1"), Parameter("Su_Date_1"), Parameter("WpfImage_X_2"), Parameter("WpfImage_Y_2"), Parameter("Su_Date_2"), Parameter("datePicker_Date"), Parameter("Order_135_completed_PropertyName"), Parameter("Order_135_completed_PropertyValue"), Parameter("Order_135_completed_TimeOut"), Parameter("fromCity_Item"), Parameter("numOfTickets_Item_1"), Parameter("passengerName_text_1"), Parameter("passengerName_text_2")]]></Scripts>
+          <LineNo><![CDATA[1]]></LineNo>
+        </StackFrame>
+      </StackTrace>
+      <IconKey>e9ebc204d0254e28b4dfd970779785b0</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+      <MergeIsErrorIcon>True</MergeIsErrorIcon>
+    </Extension>
+    <Snapshot reference="Resources\Snapshots\a06b9858-3899-45e7-8937-f85105201dde.jpeg" />
+    <DeviceInfo />
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Action0</Name>
+    <Description />
+    <StartTime>2024-08-16 21:52:43</StartTime>
+    <Duration>1</Duration>
+    <Result>Failed</Result>
+    <Extension>
+      <IconKey>87b74fbd87dc40f1a13b88f4abad3a3a</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <Index>1</Index>
+    <TestedApplications />
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Flight test exercicio 1</Name>
+    <ToolName>OpenText UFT One</ToolName>
+    <ToolVersion>24.2</ToolVersion>
+    <ToolVersionStringLiteral>24.2</ToolVersionStringLiteral>
+    <Description />
+    <StartTime>2024-08-16 21:52:40</StartTime>
+    <Duration>4</Duration>
+    <Result>Failed</Result>
+    <InputParameters />
+    <Extension>
+      <IconKey>d7379b66f7b749fab35aff2e9c9be2de</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <Environment>
+      <Timezone>-03:00:00</Timezone>
+      <Locale>English (United States)</Locale>
+      <User>johnnykamigashima</User>
+      <CpuInfo>Intel(R) Core(TM) i5-4278U CPU @ 2.60GHz</CpuInfo>
+      <NumberOfCores>2</NumberOfCores>
+      <TotalMemory>6125</TotalMemory>
+      <HostName>JOHNNYKAMIG6E9E</HostName>
+      <OSInfo>Windows 11 23H2 (x64)</OSInfo>
+    </Environment>
+    <TestedApplications />
+    <Links>
+      <Link type="DataTable" reference="Default.xlsx" displayname="Default Data Table" />
+    </Links>
+  </Data>
+</ReportNode>
+<GeneralInfo>
+    <ResultName>Res44</ResultName>
+    <RunStartTime>2024-08-16 21:52:40</RunStartTime>
+    <Timezone>-03:00:00</Timezone>
+    <OrchestrationToolName>OpenText UFT One</OrchestrationToolName>
+    <OrchestrationToolVersion>24.2</OrchestrationToolVersion>
+    <OrchestrationToolVersionStringLiteral>24.2</OrchestrationToolVersionStringLiteral>
+  </GeneralInfo>
+</Results>

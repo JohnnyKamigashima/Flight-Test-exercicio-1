@@ -1,0 +1,185 @@
+<?xml version="1.0"?>
+<Results version="1.0">
+<ReportNode type="testrun">
+<ReportNode type="Iteration">
+<ReportNode type="Action">
+<ReportNode type="Step">
+<ReportNode type="Step">
+<Data>
+    <Name>Stop Run</Name>
+    <Description>Run stopped by user.</Description>
+    <StartTime>2024-08-04 23:50:52</StartTime>
+    <Result>Information</Result>
+    <Extension>
+      <IconKey>3e42ae0d0ec5499ab8512ee8d4bf0d01</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>agentName</Name>
+    <Description>Cannot&amp;nbsp;find&amp;nbsp;the&amp;nbsp;"agentName"&amp;nbsp;object's&amp;nbsp;parent&amp;nbsp;"OpenText&amp;nbsp;MyFlight&amp;nbsp;Sample"&amp;nbsp;(class&amp;nbsp;WpfWindow).&lt;br/&gt;Verify&amp;nbsp;that&amp;nbsp;parent&amp;nbsp;properties&amp;nbsp;match&amp;nbsp;an&amp;nbsp;object&amp;nbsp;currently&amp;nbsp;displayed&amp;nbsp;in&amp;nbsp;your&amp;nbsp;application.&lt;br/&gt;&lt;br/&gt;Object's physical description:&lt;br&gt;wpftypename = window&lt;br&gt;regexpwndtitle = OpenText MyFlight Sample Application&lt;br&gt;devname = OpenText MyFlight Sample Application&lt;br&gt;</Description>
+    <StartTime>2024-08-04 23:50:52</StartTime>
+    <Duration>0</Duration>
+    <Result>Warning</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>WpfWindow</Type>
+            <Name><![CDATA[OpenText MyFlight Sample]]></Name>
+          </Object>
+          <Object>
+            <Type>WpfEdit</Type>
+            <Name><![CDATA[agentName]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[Cannot&nbsp;find&nbsp;the&nbsp;"agentName"&nbsp;object's&nbsp;parent&nbsp;"OpenText&nbsp;MyFlight&nbsp;Sample"&nbsp;(class&nbsp;WpfWindow).<br/>Verify&nbsp;that&nbsp;parent&nbsp;properties&nbsp;match&nbsp;an&nbsp;object&nbsp;currently&nbsp;displayed&nbsp;in&nbsp;your&nbsp;application.]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[devname]]></Name>
+            <Value><![CDATA[agentName]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>1c99e46f5f324ec5abe833ad4a857fe3</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+      <NodeType>Run Error</NodeType>
+    </Extension>
+    <DeviceInfo />
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Action1</Name>
+    <Description />
+    <StartTime>2024-08-04 23:50:43</StartTime>
+    <Duration>9</Duration>
+    <Result>Warning</Result>
+    <InputParameters>
+      <Parameter name="agentName_text" value="john" type="System.String" />
+      <Parameter name="password_text" value="66b03a2be983e964d091" type="System.String" />
+      <Parameter name="WpfTabStrip_Item" value="SEARCH ORDER" type="System.String" />
+      <Parameter name="byNameWatermark_text" value="001" type="System.String" />
+      <Parameter name="byNameWatermark_text_1" value="0091" type="System.String" />
+      <Parameter name="WpfTabStrip_Item_1" value="BOOK FLIGHT" type="System.String" />
+      <Parameter name="toCity_Item" value="Portland" type="System.String" />
+      <Parameter name="WpfImage_X" value="7" type="System.Int32" />
+      <Parameter name="WpfImage_Y" value="12" type="System.Int32" />
+      <Parameter name="Su_Date" value="8-Aug-2024" type="System.String" />
+      <Parameter name="Class_Item" value="Business" type="System.String" />
+      <Parameter name="numOfTickets_Item" value="3" type="System.String" />
+      <Parameter name="passengerName_text" value="Julio" type="System.String" />
+      <Parameter name="WpfImage_X_1" value="8" type="System.Int32" />
+      <Parameter name="WpfImage_Y_1" value="10" type="System.Int32" />
+      <Parameter name="Su_Date_1" value="9-Aug-2024" type="System.String" />
+      <Parameter name="WpfImage_X_2" value="10" type="System.Int32" />
+      <Parameter name="WpfImage_Y_2" value="7" type="System.Int32" />
+      <Parameter name="Su_Date_2" value="7-Aug-2024" type="System.String" />
+      <Parameter name="datePicker_Date" value="6-Aug-2024" type="System.String" />
+    </InputParameters>
+    <Extension>
+      <IconKey>449bfc76b4734b40bf9153df750d23d4</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Action0</Name>
+    <Description />
+    <StartTime>2024-08-04 23:50:43</StartTime>
+    <Duration>9</Duration>
+    <Result>Warning</Result>
+    <Extension>
+      <IconKey>535fe81d7763482caebc303fa9978468</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <Index>1</Index>
+    <TestedApplications>
+      <TestedApplication>
+        <RuntimeEngineInfo />
+        <Name>C:\Program Files (x86)\OpenText\UFT One\samples\Flights Application\FlightsGUI.exe</Name>
+        <Path>C:\Program Files (x86)\OpenText\UFT One\samples\Flights Application</Path>
+        <Version />
+        <AdditionalInfos>
+          <Info />
+          <Info />
+          <Info />
+          <Info />
+        </AdditionalInfos>
+      </TestedApplication>
+    </TestedApplications>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>Stop Run</Name>
+    <Description>Run stopped by user.</Description>
+    <StartTime>2024-08-04 23:50:52</StartTime>
+    <Result>Information</Result>
+    <Extension>
+      <IconKey>034dbe03d2eb4045bb4f8339711a0b70</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Flight test exercicio 1</Name>
+    <ToolName>OpenText UFT One</ToolName>
+    <ToolVersion>24.2</ToolVersion>
+    <ToolVersionStringLiteral>24.2</ToolVersionStringLiteral>
+    <Description />
+    <StartTime>2024-08-04 23:50:39</StartTime>
+    <Duration>13</Duration>
+    <Result>Warning</Result>
+    <InputParameters>
+      <Parameter name="agentName_text" value="john" type="System.String" />
+      <Parameter name="password_text" value="66b03a2be983e964d091" type="System.String" />
+      <Parameter name="WpfTabStrip_Item" value="SEARCH ORDER" type="System.String" />
+      <Parameter name="byNameWatermark_text" value="001" type="System.String" />
+      <Parameter name="byNameWatermark_text_1" value="0091" type="System.String" />
+      <Parameter name="WpfTabStrip_Item_1" value="BOOK FLIGHT" type="System.String" />
+      <Parameter name="toCity_Item" value="Portland" type="System.String" />
+      <Parameter name="WpfImage_X" value="7" type="System.Int32" />
+      <Parameter name="WpfImage_Y" value="12" type="System.Int32" />
+      <Parameter name="Su_Date" value="8-Aug-2024" type="System.String" />
+      <Parameter name="Class_Item" value="Business" type="System.String" />
+      <Parameter name="numOfTickets_Item" value="3" type="System.String" />
+      <Parameter name="passengerName_text" value="Julio" type="System.String" />
+      <Parameter name="WpfImage_X_1" value="8" type="System.Int32" />
+      <Parameter name="WpfImage_Y_1" value="10" type="System.Int32" />
+      <Parameter name="Su_Date_1" value="9-Aug-2024" type="System.String" />
+      <Parameter name="WpfImage_X_2" value="10" type="System.Int32" />
+      <Parameter name="WpfImage_Y_2" value="7" type="System.Int32" />
+      <Parameter name="Su_Date_2" value="7-Aug-2024" type="System.String" />
+      <Parameter name="datePicker_Date" value="6-Aug-2024" type="System.String" />
+    </InputParameters>
+    <Extension>
+      <IconKey>ee3ea0f6ba3e45d9ab1184a834044391</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <Environment>
+      <Timezone>-03:00:00</Timezone>
+      <Locale>English (United States)</Locale>
+      <User>johnnykamigashima</User>
+      <CpuInfo>Intel(R) Core(TM) i5-4278U CPU @ 2.60GHz</CpuInfo>
+      <NumberOfCores>2</NumberOfCores>
+      <TotalMemory>6125</TotalMemory>
+      <HostName>JOHNNYKAMIG6E9E</HostName>
+      <OSInfo>Windows 11 23H2 (x64)</OSInfo>
+    </Environment>
+    <TestedApplications />
+    <Links>
+      <Link type="DataTable" reference="Default.xlsx" displayname="Default Data Table" />
+    </Links>
+  </Data>
+</ReportNode>
+<GeneralInfo>
+    <ResultName>Res5</ResultName>
+    <RunStartTime>2024-08-04 23:50:39</RunStartTime>
+    <Timezone>-03:00:00</Timezone>
+    <OrchestrationToolName>OpenText UFT One</OrchestrationToolName>
+    <OrchestrationToolVersion>24.2</OrchestrationToolVersion>
+    <OrchestrationToolVersionStringLiteral>24.2</OrchestrationToolVersionStringLiteral>
+  </GeneralInfo>
+</Results>
